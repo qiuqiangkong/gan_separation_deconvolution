@@ -51,6 +51,9 @@ Following table shows the comparison of CNN, NMF and the proposed S-D approach f
 
 <img src="appendixes/result_table2.png" width="400">
 
+## Summary
+A synthesizing-decomposition (S-D) approach is proposed for solving the single channel source separation and deconvolution problem. This approach can be used to but not limited to solve image, speech and generic signal separation and deconvolution problem. 
+
 ## Citation
 
 To appear. 
