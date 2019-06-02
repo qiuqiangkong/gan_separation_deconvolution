@@ -41,7 +41,7 @@ Denoising, impainting and completion results. Symbol x is input mixture. Symbol 
 
 Following table shows the comparison of convolutional neural network (CNN), non-negative matrix factorization (NMF) and the proposed S-D approach for denoising, impainting and completion tasks. 
 
-<img src="appendixes/result_table1.png" width="600">
+<img src="appendixes/result_table1.png" width="400">
 
 Separation and deconvolution results. Symbol x is input mixture. Symbol s and a are ground truth sources and filters. Symbol \hat{s} and \hat{a} are estimated sources and filters. 
 
@@ -49,7 +49,7 @@ Separation and deconvolution results. Symbol x is input mixture. Symbol s and a 
 
 Following table shows the comparison of CNN, NMF and the proposed S-D approach for separation and deconvolution tasks. 
 
-<img src="appendixes/result_table2.png" width="600">
+<img src="appendixes/result_table2.png" width="400">
 
 ## Citation
 
