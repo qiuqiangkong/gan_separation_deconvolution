@@ -35,11 +35,11 @@ CUDA_VISIBLE_DEVICES=0 python pytorch/deconvolve_separate.py --workspace=$WORKSP
 ```
 
 ## Results
-Denoising, impainting and completion results:
+Denoising, impainting and completion results. Symbol x is input mixture. Symbol s is ground truth source. Symbol \hat{s} is estimated source. 
 
 <img src="appendixes/denoising_impainting_completion.png" width="600">
 
-Separation and deconvolution results:
+Separation and deconvolution results. Symbol x is input mixture. Symbol s and a are ground truth sources and filters. Symbol \hat{s} and \hat{a} are estimated sources and filters. 
 
 <img src="appendixes/separation_deconvolution.png" width="450">
 
