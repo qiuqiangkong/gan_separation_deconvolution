@@ -26,3 +26,13 @@ CUDA_VISIBLE_DEVICES=0 python pytorch/denoise_impaint_complete.py --workspace=$W
 Fourth, do source separation and deconvolution
 
 CUDA_VISIBLE_DEVICES=0 python pytorch/deconvolve_separate.py --workspace=$WORKSPACE --task=deconvolve_separate --repeats_num=8 --cuda
+
+## Results
+
+<img src="appendixes/denoising_impainting_completion.png" width="600">
+
+<img src="appendixes/separation_deconvolution.png" width="600">
+
+## Citation
+
+To appear. 
