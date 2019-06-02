@@ -1,6 +1,6 @@
 # Single-Channel Signal Separation and Deconvolution with Generative Adversarial Networks
 
-This codebase is the implementation of the paper Single-Channel Signal Separation and Deconvolution with Generative Adversarial Networks. The paper is accepted by IJCAI 2019. 
+This codebase is the implementation of the paper Single-Channel Signal Separation and Deconvolution with Generative Adversarial Networks (accepted by IJCAI 2019). The paper proposes a synthesizing-decomposition (S-D) approach to solve source separation and deconvolution problem. In synthesizing, a DCGAN is proposed for generating clean sources. In decomposition, the sources and filters are optimized to minimize the reconstruction loss. For more details see the paper here: (To appear)
 
 ## Environments
 
@@ -36,9 +36,11 @@ CUDA_VISIBLE_DEVICES=0 python pytorch/deconvolve_separate.py --workspace=$WORKSP
 
 ## Results
 Denoising, impainting and completion results:
+
 <img src="appendixes/denoising_impainting_completion.png" width="600">
 
 Separation and deconvolution results:
+
 <img src="appendixes/separation_deconvolution.png" width="450">
 
 ## Citation
